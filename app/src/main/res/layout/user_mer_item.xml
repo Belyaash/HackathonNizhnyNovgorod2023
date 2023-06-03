@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="220dp"
+    android:layout_height="120dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/mer2_round"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/unof_ico"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/Mer_rnd"
+        tools:srcCompat="@mipmap/narfu" />
+
+    <TextView
+        android:id="@+id/unof_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Баскетбол"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view3" />
+
+    <TextView
+        android:id="@+id/unof_address"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="г.Архангельск, ул.Ломоносова, д.2"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/unof_ico"
+        app:layout_constraintStart_toStartOf="@+id/unof_title"
+        app:layout_constraintTop_toBottomOf="@+id/unof_title" />
+
+    <TextView
+        android:id="@+id/unof_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="25 апреля 15:00"
+        app:layout_constraintStart_toStartOf="@+id/unof_address"
+        app:layout_constraintTop_toBottomOf="@+id/unof_address" />
+
+    <TextView
+        android:id="@+id/unof_people"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3/10 чел"
+        app:layout_constraintBottom_toBottomOf="@+id/unof_time"
+        app:layout_constraintEnd_toEndOf="@+id/unof_ico"
+        app:layout_constraintStart_toStartOf="@+id/unof_ico"
+        app:layout_constraintTop_toBottomOf="@+id/unof_ico" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

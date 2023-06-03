@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home_3917743"
+        android:title="Главная" />
+
+    <item
+        android:id="@+id/all_mers_dashboard"
+        android:icon="@drawable/book_alt_3914156"
+        android:title="Закладки" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/portrait_3917581"
+        android:title="Профиль" />
+
+    <item
+        android:id="@+id/navigation_record"
+        android:icon="@drawable/stats_3916749"
+        android:title="Рекорды" />
+
+</menu>

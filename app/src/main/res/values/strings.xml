@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Novgorod</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_registration">Регистрация</string>
+
+    <string name="title_greeting">Здравствуйте,</string>
+    <string name="title_greeting2">C возвращением!</string>
+
+    <string name="hint_enter_password">Введите пароль</string>
+    <string name="title_password">Пароль</string>
+
+    <string name="hint_enter_assure_password">Подтвердите пароль</string>
+    <string name="title_assure_password">Подтвердите пароль</string>
+
+    <string name="enter">Войти</string>
+
+    <string name="hint_enter_email">Введите Email</string>
+    <string name="title_email">Email</string>
+
+    <string name="hint_enter_name">Введите имя</string>
+    <string name="title_name">Имя</string>
+
+    <string name="lost_password">Забыли пароль?</string>
+    <string name="title_have_no_acc_registration">Нет аккаунта? Регистрация</string>
+
+    <string name="create_account">Создать аккаунт</string>
+    <string name="registration_hint">Поможем настроить аккаунт, это не зайдёт много времени.</string>
+
+</resources>
